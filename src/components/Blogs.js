@@ -58,11 +58,11 @@ function Blogs() {
             <Grid container spacing={3}>
                 <Grid item xs={12} md={4}>
                     <Card className={classes.root}>
-                       <CardActionArea>
+                       <CardActionArea href="https://medium.com/@Harry831/introduction-to-usestate-hook-in-react-833ba21350a9">
                            <CardMedia component="img" alt="blog1-image" height="240" image={blog1}/>
                            <CardContent>
                                <Typography className={classes.blogHeading} variant="h4">React Hooks</Typography>
-                               <Typography className={classes.body} variant='body1'>Nunc volutpat vulputate velit ac mollis. Sed ultricies maximus purus, rhoncus vulputate purus commodo non. Nulla quis euismod ante. Suspendisse potenti. Cras eget blandit ipsum, a ornare elit Nunc porta lorem ac orci posuere elementum. Nunc eget tellus gravida, malesuada metus quis, sollicitudin ante.....</Typography>
+                               <Typography className={classes.body} variant='body1'>React is one of the most popular front-end libraries for building user interfaces or UI components. The foremost reason for its popularity is the functions and features that it provides, and in this blog, we will see the importance of useState() Hook, which is used for State management in React....</Typography>
                            </CardContent>
                        </CardActionArea>
                     </Card>
@@ -73,7 +73,7 @@ function Blogs() {
                            <CardMedia component="img" alt="blog1-image" height="240" image={blog1}/>
                            <CardContent>
                                <Typography className={classes.blogHeading} variant="h4">React Hooks</Typography>
-                               <Typography variant='body1'>Nunc volutpat vulputate velit ac mollis. Sed ultricies maximus purus, rhoncus vulputate purus commodo non. Nulla quis euismod ante. Suspendisse potenti. Cras eget blandit ipsum, a ornare elit Nunc porta lorem ac orci posuere elementum. Nunc eget tellus gravida, malesuada metus quis, sollicitudin ante.....</Typography>
+                               <Typography variant='body1'>React is one of the most popular front-end libraries for building user interfaces or UI components. The foremost reason for its popularity is the functions and features that it provides, and in this blog, we will see the importance of useState() Hook, which is used for State management in React....</Typography>
                            </CardContent>
                        </CardActionArea>
                     </Card>
@@ -84,7 +84,7 @@ function Blogs() {
                            <CardMedia component="img" alt="blog1-image" height="240" image={blog1}/>
                            <CardContent>
                                <Typography className={classes.blogHeading} variant="h4">React Hooks</Typography>
-                               <Typography variant='body1'>Nunc volutpat vulputate velit ac mollis. Sed ultricies maximus purus, rhoncus vulputate purus commodo non. Nulla quis euismod ante. Suspendisse potenti. Cras eget blandit ipsum, a ornare elit Nunc porta lorem ac orci posuere elementum. Nunc eget tellus gravida, malesuada metus quis, sollicitudin ante.....</Typography>
+                               <Typography variant='body1'>React is one of the most popular front-end libraries for building user interfaces or UI components. The foremost reason for its popularity is the functions and features that it provides, and in this blog, we will see the importance of useState() Hook, which is used for State management in React....</Typography>
                            </CardContent>
                        </CardActionArea>
                     </Card>

@@ -115,7 +115,7 @@ function Header() {
                 <Tab disableRipple className={classes.tabItem} label="03. Work"/>
                 <Tab disableRipple className={classes.tabItem} label="04. Contact"/>
             </Tabs>
-            <Button variant='outlined' color='primary' className={classes.btn}>Resume</Button>
+            <Button href="https://drive.google.com/file/d/1QDP6JBX2oWHZir71QRoo4FM_OBie1KYZ/view?usp=sharing" variant='outlined' color='primary' className={classes.btn}>Resume</Button>
         </React.Fragment>
     )
 
@@ -162,7 +162,7 @@ function Header() {
             component={Link}
             disableTypography
           >
-            <ListItemText className={classes.drawerItem}>Contact</ListItemText>
+          <ListItemText className={classes.drawerItem}>Contact</ListItemText>
           </ListItem>
           <ListItem
             onClick={() => {setOpenDrawer(false);}}
@@ -171,7 +171,7 @@ function Header() {
             component={Link}
             disableTypography
           >
-            <ListItemText className={classes.drawerItem}>Resume</ListItemText>
+          <ListItemText className={classes.drawerItem}>Resume</ListItemText>
           </ListItem>
         </List>
       </SwipeableDrawer>

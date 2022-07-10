@@ -98,9 +98,9 @@ function About() {
                         }}></TypewriterComponent>
                         </Typography>
                     <Typography className={classes.shortDesc} variant='h1' gutterBottom>I build things for the Web.</Typography>
-                    <Typography className={classes.body} variant='body1'>I’m a full-stack web developer specializing in building (and occasionally </Typography>
-                    <Typography className={classes.body} variant='body1'>designing) exceptional digital experiences. Currently, I’m focused on</Typography>
-                    <Typography className={classes.body} variant='body1'>learning new technologies and building beautiful web-apps.</Typography>
+                    <Typography className={classes.body} variant='body1'>I’m a passionate self-taught full-stack web developer and an aspiring software engineer from India. </Typography>
+                    <Typography className={classes.body} variant='body1'>My passion for software lies with building scalable and optimized web applications.  </Typography>
+                    <Typography className={classes.body} variant='body1'>I take great care in the experience, architecture, and code quality of the things I build.</Typography>
                     <Button variant='outlined' color='primary' className={classes.projButton}>Check out my Projects..</Button>
                     <Button variant='contained' className={classes.blogButton}>Read my Blogs..</Button>
                 </Grid>

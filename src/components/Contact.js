@@ -66,14 +66,14 @@ function Contact () {
           <Typography variant='h1' className={classes.heading}>Contact Me</Typography>
           <Grid container spacing={2}>
               <Grid item xs={6}>
-                <Button variant='oultined' className={classes.btn} color='primary' startIcon={<GitHubIcon />}>Github</Button>
-                <Button variant='oultined' className={classes.btn} color='primary' startIcon={<LinkedInIcon />}>Linkedin</Button>
-                <Button variant='oultined' className={classes.btn} color='primary' startIcon={<InstagramIcon />}>Instagram</Button>
+                <Button href="https://github.com/HS831" variant='oultined' className={classes.btn} color='primary' startIcon={<GitHubIcon />}>Github</Button>
+                <Button href="https://github.com/HS831" variant='oultined' className={classes.btn} color='primary' startIcon={<LinkedInIcon />}>Linkedin</Button>
+                <Button href="https://github.com/HS831" variant='oultined' className={classes.btn} color='primary' startIcon={<InstagramIcon />}>Instagram</Button>
               </Grid>
               <Grid item xs={6}>
-                <Button variant='oultined' className={classes.btn} color='primary' startIcon={<MailOutlineIcon />}>Mail</Button>
-                <Button variant='oultined' className={classes.btn} color='primary' startIcon={<FacebookIcon />}>Facebook</Button>
-                <Button variant='oultined' className={classes.btn} color='primary' startIcon={<TwitterIcon />}>Twitter</Button>
+                <Button href="https://github.com/HS831" variant='oultined' className={classes.btn} color='primary' startIcon={<MailOutlineIcon />}>Mail</Button>
+                <Button href="https://github.com/HS831" variant='oultined' className={classes.btn} color='primary' startIcon={<FacebookIcon />}>Facebook</Button>
+                <Button href="https://github.com/HS831" variant='oultined' className={classes.btn} color='primary' startIcon={<TwitterIcon />}>Twitter</Button>
               </Grid>
           </Grid>
       </div>

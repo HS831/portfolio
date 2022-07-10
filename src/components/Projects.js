@@ -9,7 +9,10 @@ import LanguageIcon from '@material-ui/icons/Language';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
+import proj3 from '../assets/proj3.png';
 import proj2 from '../assets/proj2.png';
+import proj4 from '../assets/proj4.png';
+import proj5 from '../assets/proj5.png';
 
 const useStyles = makeStyles(theme => ({
     aboutContainer: {
@@ -114,7 +117,7 @@ function Projects() {
                 <div data-aos='fade-up'>
                     <Grid container justifyContent='flex-start' direction='row' spacing={2} className={classes.imgContainer}>
                         <Grid item xs={12} md={12} lg={6}>
-                            <img alt='proj1-img' src={proj2} className={classes.proj}></img>
+                            <img alt='proj1-img' src={proj3} className={classes.proj}></img>
                         </Grid>
                         <Grid item xs={12} md={12} lg={6}>
                         <Typography variant='h3' className={classes.projHeading}>Lorem Ipsum Ltd.</Typography>
@@ -127,7 +130,7 @@ function Projects() {
                 <div data-aos='fade-up'>
                     <Grid container justifyContent='flex-start' direction='row' spacing={2} className={classes.imgContainer}>
                         <Grid item xs={12} md={12} lg={6}>
-                            <img alt='proj1-img' src={proj2} className={classes.proj}></img>
+                            <img alt='proj1-img' src={proj4} className={classes.proj}></img>
                         </Grid>
                         <Grid item xs={12} md={12} lg={6}>
                         <Typography variant='h3' className={classes.projHeading}>Lorem Ipsum Ltd.</Typography>
@@ -140,7 +143,7 @@ function Projects() {
                 <div data-aos='fade-up'>
                     <Grid container justifyContent='flex-start' direction='row' spacing={2} className={classes.imgContainer}>
                         <Grid item xs={12} md={12} lg={6}>
-                            <img alt='proj1-img' src={proj2} className={classes.proj}></img>
+                            <img alt='proj1-img' src={proj5} className={classes.proj}></img>
                         </Grid>
                         <Grid item xs={12} md={12} lg={6}>
                         <Typography variant='h3' className={classes.projHeading}>Lorem Ipsum Ltd.</Typography>
