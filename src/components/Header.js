@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import clsx from 'clsx';
@@ -96,7 +97,7 @@ const useStyles = makeStyles(theme => ({
     },
     aboutSection: {
       marginTop: '7.5em'
-    }
+    },
 }))
 
 
@@ -112,7 +113,7 @@ function Header() {
             <Tabs className={classes.tabContainer}>
                 <Tab disableRipple className={classes.tabItem} label="01. About"/>
                 <Tab disableRipple className={classes.tabItem} label="02. Skills"/>
-                <Tab disableRipple className={classes.tabItem} label="03. Work"/>
+                <Tab disableRipple className={classes.tabItem} label="03. Projects"/>
                 <Tab disableRipple className={classes.tabItem} label="04. Contact"/>
             </Tabs>
             <Button href="https://drive.google.com/file/d/1QDP6JBX2oWHZir71QRoo4FM_OBie1KYZ/view?usp=sharing" variant='outlined' color='primary' className={classes.btn}>Resume</Button>

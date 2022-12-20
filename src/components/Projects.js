@@ -94,7 +94,7 @@ const useStyles = makeStyles(theme => ({
         marginLeft: '7em',
         height: '3em',
         width: '10em',
-        backgroundColor: '#90E0EF',
+        backgroundColor: '#09F0FA',
         [theme.breakpoints.down('xs')] : {
             marginLeft: '2em', 
             height: '3em',
@@ -120,10 +120,10 @@ function Projects() {
                             <img alt='proj1-img' src={proj3} className={classes.proj}></img>
                         </Grid>
                         <Grid item xs={12} md={12} lg={6}>
-                        <Typography variant='h3' className={classes.projHeading}>Lorem Ipsum Ltd.</Typography>
-                            <Typography variant='body1' className={classes.body}>These tough times have made us all aware of the importance of our loved ones and through this app, users can bring a their family and friend's faces by sending them their favoritedelicacy, medicines, or a simple heartfelt gift.</Typography>
+                        <Typography variant='h3' className={classes.projHeading}>Mini Kart</Typography>
+                            <Typography variant='body1' className={classes.body}>Welcome to our sneaker website! We are excited to bring you a dynamic and user-friendly shopping experience powered by the MERN stack. MERN stands for MongoDB, Express.js, React.js, and Node.js - a powerful combination of technologies that allows us to create fast and efficient web applications. Our website features a wide selection of the latest sneakers from top brands, as well as a user-friendly interface and secure checkout process.</Typography>
                             <Button variant='contained' startIcon={<LanguageIcon />} className={classes.button}>Visit</Button>
-                            <Button variant='outlined' startIcon={<GitHubIcon />} className={classes.button}>Github</Button>
+                            <Button variant='contained' startIcon={<GitHubIcon />} className={classes.button}>Github</Button>
                         </Grid>
                     </Grid>
                 </div>
@@ -133,10 +133,10 @@ function Projects() {
                             <img alt='proj1-img' src={proj4} className={classes.proj}></img>
                         </Grid>
                         <Grid item xs={12} md={12} lg={6}>
-                        <Typography variant='h3' className={classes.projHeading}>Lorem Ipsum Ltd.</Typography>
-                            <Typography variant='body1' className={classes.body}>These tough times have made us all aware of the importance of our loved ones and through this app, users can bring a their family and friend's faces by sending them their favoritedelicacy, medicines, or a simple heartfelt gift.</Typography>
+                        <Typography variant='h3' className={classes.projHeading}>Social Flix.</Typography>
+                            <Typography variant='body1' className={classes.body}>Welcome to our social media REST API! We are excited to bring you a robust and scalable API for building social media applications. Our API is built using the powerful combination of Node.js, Express.js, and MongoDB, providing a flexible and reliable foundation for your project. With our API, you can easily build features such as user authentication, posting and commenting on content, and managing relationships between users. Whether you're building a small social media platform for a specific community or a full-featured social media application, our API has the tools you need to get started quickly and easily. Thank you for choosing us and we hope you enjoy using our API!</Typography>
                             <Button variant='contained' startIcon={<LanguageIcon />} className={classes.button}>Visit</Button>
-                            <Button variant='outlined' startIcon={<GitHubIcon />} className={classes.button}>Github</Button>
+                            <Button variant='contained' startIcon={<GitHubIcon />} className={classes.button}>Github</Button>
                         </Grid>
                     </Grid>
                 </div>
@@ -146,10 +146,10 @@ function Projects() {
                             <img alt='proj1-img' src={proj5} className={classes.proj}></img>
                         </Grid>
                         <Grid item xs={12} md={12} lg={6}>
-                        <Typography variant='h3' className={classes.projHeading}>Lorem Ipsum Ltd.</Typography>
-                            <Typography variant='body1' className={classes.body}>These tough times have made us all aware of the importance of our loved ones and through this app, users can bring a their family and friend's faces by sending them their favoritedelicacy, medicines, or a simple heartfelt gift.</Typography>
+                        <Typography variant='h3' className={classes.projHeading}>Portfolio Template.</Typography>
+                            <Typography variant='body1' className={classes.body}>My portfolio is built using React and Material UI, two powerful technologies that allow me to create fast and responsive user interfaces. Material UI is a popular design system that provides a wide range of pre-designed components, making it easy for me to quickly create a professional and cohesive look for a portfolio - template. On this website, you will find information about background, skills and expertise, and some examples of work. </Typography>
                             <Button variant='contained' startIcon={<LanguageIcon />} className={classes.button}>Visit</Button>
-                            <Button variant='outlined' startIcon={<GitHubIcon />} className={classes.button}>Github</Button>
+                            <Button variant='contained' startIcon={<GitHubIcon />} className={classes.button}>Github</Button>
                         </Grid>
                     </Grid>
                 </div>
